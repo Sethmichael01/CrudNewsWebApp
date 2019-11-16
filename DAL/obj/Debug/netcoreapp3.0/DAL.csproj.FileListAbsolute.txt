@@ -1,0 +1,10 @@
+C:\Users\sethm\Desktop\EfCore\DAL\bin\Debug\netcoreapp3.0\DAL.deps.json
+C:\Users\sethm\Desktop\EfCore\DAL\bin\Debug\netcoreapp3.0\DAL.dll
+C:\Users\sethm\Desktop\EfCore\DAL\obj\Debug\netcoreapp3.0\DAL.csprojAssemblyReference.cache
+C:\Users\sethm\Desktop\EfCore\DAL\obj\Debug\netcoreapp3.0\DAL.AssemblyInfoInputs.cache
+C:\Users\sethm\Desktop\EfCore\DAL\obj\Debug\netcoreapp3.0\DAL.AssemblyInfo.cs
+C:\Users\sethm\Desktop\EfCore\DAL\bin\Debug\netcoreapp3.0\DAL.runtimeconfig.json
+C:\Users\sethm\Desktop\EfCore\DAL\bin\Debug\netcoreapp3.0\DAL.runtimeconfig.dev.json
+C:\Users\sethm\Desktop\EfCore\DAL\bin\Debug\netcoreapp3.0\DAL.pdb
+C:\Users\sethm\Desktop\EfCore\DAL\obj\Debug\netcoreapp3.0\DAL.dll
+C:\Users\sethm\Desktop\EfCore\DAL\obj\Debug\netcoreapp3.0\DAL.pdb
