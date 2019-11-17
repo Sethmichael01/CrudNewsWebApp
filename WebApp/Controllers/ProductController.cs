@@ -4,14 +4,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using DAL;
+using System.Globalization;
 
 namespace WebApp.Controllers
 {
+    static class DateTimeExtensions
+    {
+        public static string DateTimes(this DateTime dateTime)
+        {
+            return CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(dateTime.Month);
+        }
+    }
     public class ProductController : Controller
     {
+        
         DatabaseContext databaseContext = new DatabaseContext();
         public IActionResult Index()
         {
+            DateTime dateTime = DateTime.Now;
+            ViewBag.Month = DateTime.Now.DateTimes();
             List<Product> data = databaseContext.Products.ToList();
             return View(data);
         }

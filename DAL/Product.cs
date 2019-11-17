@@ -15,6 +15,12 @@ namespace DAL
         [Required]
         public string Description { get; set; }
         [Required]
+        public string News { get; set; }
+        [Required]
+        public string Title { get; set; }
+        [Required]
+        [EmailAddress]
+        public string EmailAddress { get; set; }
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
